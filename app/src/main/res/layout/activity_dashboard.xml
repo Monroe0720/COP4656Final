@@ -18,22 +18,22 @@
         android:id="@+id/destinationSearchButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Destination Search"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="FAMU Website" />
 
     <Button
         android:id="@+id/audioGuideButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Audio Guide"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="Sounds of FAMU" />
 
     <Button
         android:id="@+id/imageGalleryButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Image Gallery"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="History" />
 
     <Button
         android:id="@+id/tripPlannerButton"

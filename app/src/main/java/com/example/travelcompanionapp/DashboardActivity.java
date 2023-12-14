@@ -23,7 +23,7 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Check login logic here
                 // If login successful, navigate to DashboardActivity
-                Intent intent = new Intent(DashboardActivity.this, DashboardActivity.class);
+                Intent intent = new Intent(DashboardActivity.this, webviewActivity.class);
                 startActivity(intent);
             }
 
@@ -55,6 +55,7 @@ public class DashboardActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
 
 

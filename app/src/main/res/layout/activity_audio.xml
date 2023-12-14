@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    tools:ignore="ExtraText">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/audioTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sounds_of_famu"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <!-- SeekBar for audio progress -->
+    <SeekBar
+        android:id="@+id/audioSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/audioTitleTextView"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <!-- TextView to display audio progress -->
+    <TextView
+        android:id="@+id/audioProgressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_00_00_00_00"
+        android:layout_below="@id/audioSeekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Play/Pause ImageButton -->
+    <ImageButton
+        android:id="@+id/playPauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play_pause"
+        android:contentDescription="@string/todo1" /> <!-- Replace with your play/pause icon -->
+        android:layout_below="@id/audioProgressTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+
+
+</RelativeLayout>
